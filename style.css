@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200,200);
+}
+
+.logo{
+    color: #16507b;
+}
+
+.logo h2{
+    font-size: 22px;
+}
+
+.menu{
+    width: 100%;
+    text-align:right;
+    padding-right: 10px;
+}
+
+.menu a{
+    color: #124265;
+    font-size:  14px;
+    text-decoration: none;
+    margin-right: 20px;
+    /*transition: 0.4s;*/
+}
+
+.menu a:hover{
+    color: #007bff;
+}
+
+.menu .btn-menu{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius:  4px;
+}
+
+.menu .btn-menu:hover{
+    background-color: #136ccb;
+    color: white;
+}
+
+/*
+ --------------------SECTION MAIN
+*/
+section.main{
+    background-image: url('img/hero-bg.jpg');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main__cta{
+    width: 100%;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.main__cta h2{
+    color:  #16507b;
+    font-size: 40px;
+}
+.main__cta p{
+    color:  rgb(61, 61, 61);
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.main__cta button{
+    background-color: #007bff;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border-radius:  4px;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+}
+.main__cta button:hover{
+    background-color: #136ccb;
+    color: white;
+}
+
+/*
+-------------------------- DIFERENCIAIS
+*/
+.diferenciais{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+   
+}
+.diferencial-single {
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.diferencial-single i{
+    color: #007bff;
+    font-size: 36px;
+}
+.diferencial-single h2{
+    color: #124265;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.diferencial-single p{
+    color: gray;
+    font-size: 14px;
+}
+
+/* 
+
+---------------------------SECTION SOBRE
+
+*/
+
+section.sobre{
+    padding: 80px 0;
+}
+.chamada-sobre{
+    text-align: center;
+    width: 100%;
+}
+
+.chamada-sobre h2{
+   color:#124265;
+   text-transform: uppercase;
+}
+
+.chamada-sobre p{
+    font-size: 14px;
+    color: #444444;
+    margin: 10px 0; 
+}
+
+.conteudo-sobre{
+    width: 100%;
+    display: flex;
+}
+
+.conteudo-sobre p{
+    margin: 0 20px;
+    color:#444444;
+}
+
+.conteudo-sobre span{
+    display: inline-block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.conteudo-sobre i{
+    color: #007bff;
+    font-size: 10px;
+}
+
+.conteudo-sobre button{
+    display: inline-block;
+    background-color: white;
+    border-radius:  4px;
+    border-color: #136ccb;
+    border: 1%;
+    font-size: 16px;
+    color: #136ccb;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.conteudo-sobre button:hover{
+    background-color: #136ccb;
+    color: white;
+}
+
+/* ---------------------------Section certificados-----------------*/
+
+
+section.certificados{
+    background-color: #f3f9ff;
+    padding-top: 30px;
+    padding-bottom: 200px;
+}
+
+.certificado-single{
+    width: 20%;
+   margin-right: 5%;
+   text-align: center;
+   color: #124265;
+}
+
+.certificado-single h2{
+   font-size: 16px;
+   margin-right: 4;
+    
+}
+
+.certificado-single p{
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .diferencial-single{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .conteudo-sobre p{
+        width: 100%;margin: 20px 20px;
+    }
+}
+
+
